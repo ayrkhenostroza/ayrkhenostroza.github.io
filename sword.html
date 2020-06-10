@@ -45,7 +45,11 @@
           scale="0.1 0.1 0.1"
           class="clickable"
           gesture-handler>
-          animation="property: rotation; to: 270 0 0; loop: true; dur: 10000"
+          <a-animation attribute="rotation"
+               dur="3000"
+               to="270 360 0"
+               repeat="indefinite">
+        </a-animation>
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
