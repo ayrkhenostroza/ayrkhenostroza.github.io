@@ -24,8 +24,8 @@
     >
       <a-assets>
         <a-asset-item
-          id="bowser"
-          src="assets/diamondsword.glb"
+          id="animal"
+          src="assets/pixelsword.glb"
         >
         </a-asset-item>
       </a-assets>
@@ -38,16 +38,16 @@
         id="markerA"
       >
         <a-entity
-          id="bowser-model"
-          gltf-model="#bowser"
-          rotation="270 0 0"
+          id="animal-model"
+          gltf-model="#animal"
+          rotation="0 0 0"
           position="0 0 0"
           scale="0.3 0.3 0.3"
           class="clickable"
           gesture-handler>
           <a-animation attribute="rotation"
-               dur="4000"
-               to="0 0 360"
+               dur="10000"
+               to="0 360 0"
                repeat="indefinite"
                easing="linear"
           >
