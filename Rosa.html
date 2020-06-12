@@ -24,7 +24,7 @@
     >
       <a-assets>
         <a-asset-item
-          id="#Rosa"
+          id="Golem"
           src="assets/Rosa.glb"
         >
         </a-asset-item>
@@ -38,19 +38,20 @@
         id="markerA"
       >
         <a-entity
-          id="Rosa-model"
-          gltf-model="#Rosa"
+          id="Golem-model"
+          gltf-model="#Golem"
           rotation="0 0 0"
           position="0 0 0"
-          scale="0.1 0.1 0.1"
+          scale="0.05 0.05 0.05"
           class="clickable"
           gesture-handler>
           <a-animation attribute="rotation"
                dur="8000"
                to="0 360 0"
                repeat="indefinite"
-               easing="linear">
-            </a-animation>
+               easing="linear"
+          >
+        </a-animation>
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
